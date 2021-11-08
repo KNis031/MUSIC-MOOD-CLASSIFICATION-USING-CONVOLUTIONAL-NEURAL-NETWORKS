@@ -1,0 +1,731 @@
+mood/theme---melancholic 		 0.6458 , 0.0426
+mood/theme---melodic 		 0.4885 , 0.0902
+mood/theme---motivational 		 0.7289 , 0.0548
+mood/theme---movie 		 0.6380 , 0.0503
+mood/theme---nature 		 0.6628 , 0.0267
+mood/theme---party 		 0.4851 , 0.0216
+mood/theme---positive 		 0.6260 , 0.0253
+mood/theme---powerful 		 0.4274 , 0.0101
+mood/theme---relaxing 		 0.7059 , 0.1285
+mood/theme---retro 		 0.5266 , 0.0106
+mood/theme---romantic 		 0.6430 , 0.0519
+mood/theme---sad 		 0.6538 , 0.0728
+mood/theme---sexy 		 0.4871 , 0.0095
+mood/theme---slow 		 0.5472 , 0.0152
+mood/theme---soft 		 0.5672 , 0.0403
+mood/theme---soundscape 		 0.6814 , 0.0226
+mood/theme---space 		 0.4789 , 0.0247
+mood/theme---sport 		 0.5896 , 0.0116
+mood/theme---summer 		 0.7303 , 0.0520
+mood/theme---trailer 		 0.7295 , 0.0539
+mood/theme---travel 		 0.5189 , 0.0270
+mood/theme---upbeat 		 0.5227 , 0.0400
+mood/theme---uplifting 		 0.5967 , 0.0544
+best model: 0.608312
+[2021-11-04 01:11:07] Epoch [4/10] Iter [10/311] train loss: 0.1486 Elapsed: 1:22:33.527864
+[2021-11-04 01:11:54] Epoch [4/10] Iter [20/311] train loss: 0.1622 Elapsed: 1:23:21.276903
+[2021-11-04 01:12:42] Epoch [4/10] Iter [30/311] train loss: 0.1459 Elapsed: 1:24:08.340689
+[2021-11-04 01:13:28] Epoch [4/10] Iter [40/311] train loss: 0.1684 Elapsed: 1:24:55.160734
+[2021-11-04 01:14:15] Epoch [4/10] Iter [50/311] train loss: 0.1442 Elapsed: 1:25:41.806144
+[2021-11-04 01:15:02] Epoch [4/10] Iter [60/311] train loss: 0.1296 Elapsed: 1:26:28.766829
+[2021-11-04 01:15:49] Epoch [4/10] Iter [70/311] train loss: 0.1263 Elapsed: 1:27:15.731151
+[2021-11-04 01:16:36] Epoch [4/10] Iter [80/311] train loss: 0.1492 Elapsed: 1:28:03.022845
+[2021-11-04 01:17:24] Epoch [4/10] Iter [90/311] train loss: 0.1787 Elapsed: 1:28:50.453367
+[2021-11-04 01:18:11] Epoch [4/10] Iter [100/311] train loss: 0.1429 Elapsed: 1:29:37.501099
+[2021-11-04 01:18:58] Epoch [4/10] Iter [110/311] train loss: 0.1558 Elapsed: 1:30:24.343147
+[2021-11-04 01:19:45] Epoch [4/10] Iter [120/311] train loss: 0.1562 Elapsed: 1:31:11.423740
+[2021-11-04 01:20:32] Epoch [4/10] Iter [130/311] train loss: 0.1708 Elapsed: 1:31:58.530752
+[2021-11-04 01:21:19] Epoch [4/10] Iter [140/311] train loss: 0.1458 Elapsed: 1:32:45.638537
+[2021-11-04 01:22:06] Epoch [4/10] Iter [150/311] train loss: 0.1647 Elapsed: 1:33:32.897994
+[2021-11-04 01:22:53] Epoch [4/10] Iter [160/311] train loss: 0.1529 Elapsed: 1:34:19.765498
+[2021-11-04 01:23:40] Epoch [4/10] Iter [170/311] train loss: 0.1603 Elapsed: 1:35:06.620956
+[2021-11-04 01:24:27] Epoch [4/10] Iter [180/311] train loss: 0.1517 Elapsed: 1:35:53.765020
+[2021-11-04 01:25:14] Epoch [4/10] Iter [190/311] train loss: 0.1525 Elapsed: 1:36:40.958798
+[2021-11-04 01:26:01] Epoch [4/10] Iter [200/311] train loss: 0.1621 Elapsed: 1:37:28.073925
+[2021-11-04 01:26:48] Epoch [4/10] Iter [210/311] train loss: 0.1425 Elapsed: 1:38:15.223606
+[2021-11-04 01:27:35] Epoch [4/10] Iter [220/311] train loss: 0.1482 Elapsed: 1:39:02.038475
+[2021-11-04 01:28:22] Epoch [4/10] Iter [230/311] train loss: 0.1420 Elapsed: 1:39:49.148795
+[2021-11-04 01:29:09] Epoch [4/10] Iter [240/311] train loss: 0.1374 Elapsed: 1:40:36.022086
+[2021-11-04 01:29:57] Epoch [4/10] Iter [250/311] train loss: 0.1697 Elapsed: 1:41:23.401432
+[2021-11-04 01:30:44] Epoch [4/10] Iter [260/311] train loss: 0.1638 Elapsed: 1:42:10.508619
+[2021-11-04 01:31:31] Epoch [4/10] Iter [270/311] train loss: 0.1600 Elapsed: 1:42:57.566705
+[2021-11-04 01:32:18] Epoch [4/10] Iter [280/311] train loss: 0.1362 Elapsed: 1:43:44.607278
+[2021-11-04 01:33:05] Epoch [4/10] Iter [290/311] train loss: 0.1475 Elapsed: 1:44:31.329785
+[2021-11-04 01:33:52] Epoch [4/10] Iter [300/311] train loss: 0.1614 Elapsed: 1:45:18.376295
+[2021-11-04 01:34:39] Epoch [4/10] Iter [310/311] train loss: 0.1402 Elapsed: 1:46:05.509196
+[2021-11-04 01:34:59] Epoch [4/10], Iter [10/119] valid loss: 0.1140 Elapsed: 1:46:25.765033
+[2021-11-04 01:35:15] Epoch [4/10], Iter [20/119] valid loss: 0.1222 Elapsed: 1:46:41.948058
+[2021-11-04 01:35:31] Epoch [4/10], Iter [30/119] valid loss: 0.1208 Elapsed: 1:46:58.143084
+[2021-11-04 01:35:48] Epoch [4/10], Iter [40/119] valid loss: 0.1341 Elapsed: 1:47:14.411337
+[2021-11-04 01:36:04] Epoch [4/10], Iter [50/119] valid loss: 0.1522 Elapsed: 1:47:30.590968
+[2021-11-04 01:36:20] Epoch [4/10], Iter [60/119] valid loss: 0.1128 Elapsed: 1:47:46.746707
+[2021-11-04 01:36:36] Epoch [4/10], Iter [70/119] valid loss: 0.1186 Elapsed: 1:48:02.896212
+[2021-11-04 01:36:52] Epoch [4/10], Iter [80/119] valid loss: 0.1296 Elapsed: 1:48:19.044041
+[2021-11-04 01:37:08] Epoch [4/10], Iter [90/119] valid loss: 0.1198 Elapsed: 1:48:35.153764
+[2021-11-04 01:37:25] Epoch [4/10], Iter [100/119] valid loss: 0.1415 Elapsed: 1:48:51.331821
+[2021-11-04 01:37:41] Epoch [4/10], Iter [110/119] valid loss: 0.1375 Elapsed: 1:49:07.494227
+roc_auc: 0.6078
+pr_auc: 0.0520
+mood/theme---action 		 0.5558 , 0.0161
+mood/theme---adventure 		 0.5460 , 0.0226
+mood/theme---advertising 		 0.6936 , 0.0905
+mood/theme---background 		 0.5118 , 0.0085
+mood/theme---ballad 		 0.6482 , 0.0228
+mood/theme---calm 		 0.3658 , 0.0285
+mood/theme---children 		 0.5478 , 0.0359
+mood/theme---christmas 		 0.6871 , 0.0380
+mood/theme---commercial 		 0.7093 , 0.0663
+mood/theme---cool 		 0.7532 , 0.0200
+mood/theme---corporate 		 0.6484 , 0.0719
+mood/theme---dark 		 0.6015 , 0.0827
+mood/theme---deep 		 0.7183 , 0.1858
+mood/theme---documentary 		 0.5183 , 0.0331
+mood/theme---drama 		 0.6613 , 0.0380
+mood/theme---dramatic 		 0.5368 , 0.0117
+mood/theme---dream 		 0.5510 , 0.0641
+mood/theme---emotional 		 0.6130 , 0.1327
+mood/theme---energetic 		 0.7704 , 0.1466
+mood/theme---epic 		 0.8029 , 0.1729
+mood/theme---fast 		 0.7235 , 0.0141
+mood/theme---film 		 0.6466 , 0.0867
+mood/theme---fun 		 0.7301 , 0.1288
+mood/theme---funny 		 0.6663 , 0.0092
+mood/theme---game 		 0.4522 , 0.0064
+mood/theme---groovy 		 0.4340 , 0.0183
+mood/theme---happy 		 0.6237 , 0.1489
+mood/theme---heavy 		 0.4298 , 0.0071
+mood/theme---holiday 		 0.6433 , 0.0154
+mood/theme---hopeful 		 0.5211 , 0.0104
+mood/theme---inspiring 		 0.5864 , 0.0446
+mood/theme---love 		 0.5190 , 0.0593
+mood/theme---meditative 		 0.6935 , 0.0950
+mood/theme---melancholic 		 0.6503 , 0.0469
+mood/theme---melodic 		 0.4969 , 0.0935
+mood/theme---motivational 		 0.7273 , 0.0655
+mood/theme---movie 		 0.5159 , 0.0310
+mood/theme---nature 		 0.5964 , 0.0244
+mood/theme---party 		 0.5904 , 0.0258
+mood/theme---positive 		 0.5809 , 0.0231
+mood/theme---powerful 		 0.5441 , 0.0152
+mood/theme---relaxing 		 0.6932 , 0.1284
+mood/theme---retro 		 0.5871 , 0.0123
+mood/theme---romantic 		 0.5682 , 0.0384
+mood/theme---sad 		 0.6401 , 0.0670
+mood/theme---sexy 		 0.5474 , 0.0107
+mood/theme---slow 		 0.5418 , 0.0182
+mood/theme---soft 		 0.4766 , 0.0331
+mood/theme---soundscape 		 0.6939 , 0.0218
+mood/theme---space 		 0.5176 , 0.0252
+mood/theme---sport 		 0.7182 , 0.0184
+mood/theme---summer 		 0.7626 , 0.0642
+mood/theme---trailer 		 0.7406 , 0.0868
+mood/theme---travel 		 0.5212 , 0.0208
+mood/theme---upbeat 		 0.5918 , 0.0499
+mood/theme---uplifting 		 0.6236 , 0.0611
+[2021-11-04 01:38:43] Epoch [5/10] Iter [10/311] train loss: 0.1488 Elapsed: 1:50:09.833322
+[2021-11-04 01:39:31] Epoch [5/10] Iter [20/311] train loss: 0.1541 Elapsed: 1:50:57.399472
+[2021-11-04 01:40:18] Epoch [5/10] Iter [30/311] train loss: 0.1549 Elapsed: 1:51:44.654708
+[2021-11-04 01:41:05] Epoch [5/10] Iter [40/311] train loss: 0.1536 Elapsed: 1:52:31.676060
+[2021-11-04 01:41:52] Epoch [5/10] Iter [50/311] train loss: 0.1494 Elapsed: 1:53:18.931502
+[2021-11-04 01:42:39] Epoch [5/10] Iter [60/311] train loss: 0.1499 Elapsed: 1:54:06.030155
+[2021-11-04 01:43:26] Epoch [5/10] Iter [70/311] train loss: 0.1441 Elapsed: 1:54:53.104848
+[2021-11-04 01:44:13] Epoch [5/10] Iter [80/311] train loss: 0.1238 Elapsed: 1:55:40.124849
+[2021-11-04 01:45:01] Epoch [5/10] Iter [90/311] train loss: 0.1316 Elapsed: 1:56:27.333447
+[2021-11-04 01:45:48] Epoch [5/10] Iter [100/311] train loss: 0.1394 Elapsed: 1:57:14.432019
+[2021-11-04 01:46:35] Epoch [5/10] Iter [110/311] train loss: 0.1187 Elapsed: 1:58:01.809365
+[2021-11-04 01:47:22] Epoch [5/10] Iter [120/311] train loss: 0.1532 Elapsed: 1:58:49.124619
+[2021-11-04 01:48:14] Epoch [5/10] Iter [130/311] train loss: 0.1512 Elapsed: 1:59:41.198865
+[2021-11-04 01:49:09] Epoch [5/10] Iter [140/311] train loss: 0.1429 Elapsed: 2:00:35.889684
+[2021-11-04 01:50:04] Epoch [5/10] Iter [150/311] train loss: 0.1414 Elapsed: 2:01:30.789582
+[2021-11-04 01:50:59] Epoch [5/10] Iter [160/311] train loss: 0.1470 Elapsed: 2:02:25.602675
+[2021-11-04 01:51:54] Epoch [5/10] Iter [170/311] train loss: 0.1499 Elapsed: 2:03:20.549111
+[2021-11-04 01:52:49] Epoch [5/10] Iter [180/311] train loss: 0.1355 Elapsed: 2:04:15.654801
+[2021-11-04 01:53:44] Epoch [5/10] Iter [190/311] train loss: 0.1396 Elapsed: 2:05:10.624628
+[2021-11-04 01:54:39] Epoch [5/10] Iter [200/311] train loss: 0.1454 Elapsed: 2:06:05.950382
+[2021-11-04 01:55:34] Epoch [5/10] Iter [210/311] train loss: 0.1601 Elapsed: 2:07:01.060906
+[2021-11-04 01:56:30] Epoch [5/10] Iter [220/311] train loss: 0.1453 Elapsed: 2:07:56.809535
+[2021-11-04 01:57:25] Epoch [5/10] Iter [230/311] train loss: 0.1561 Elapsed: 2:08:52.054479
+[2021-11-04 01:58:21] Epoch [5/10] Iter [240/311] train loss: 0.1473 Elapsed: 2:09:47.578884
+[2021-11-04 01:59:16] Epoch [5/10] Iter [250/311] train loss: 0.1273 Elapsed: 2:10:43.013257
+[2021-11-04 02:00:12] Epoch [5/10] Iter [260/311] train loss: 0.1606 Elapsed: 2:11:38.446979
+[2021-11-04 02:01:07] Epoch [5/10] Iter [270/311] train loss: 0.1549 Elapsed: 2:12:34.090958
+[2021-11-04 02:02:03] Epoch [5/10] Iter [280/311] train loss: 0.1528 Elapsed: 2:13:30.075596
+[2021-11-04 02:02:59] Epoch [5/10] Iter [290/311] train loss: 0.1514 Elapsed: 2:14:26.052863
+[2021-11-04 02:03:55] Epoch [5/10] Iter [300/311] train loss: 0.1542 Elapsed: 2:15:21.602351
+[2021-11-04 02:04:51] Epoch [5/10] Iter [310/311] train loss: 0.1431 Elapsed: 2:16:17.756939
+[2021-11-04 02:05:21] Epoch [5/10], Iter [10/119] valid loss: 0.1267 Elapsed: 2:16:48.182027
+[2021-11-04 02:05:45] Epoch [5/10], Iter [20/119] valid loss: 0.1210 Elapsed: 2:17:12.272697
+[2021-11-04 02:06:12] Epoch [5/10], Iter [30/119] valid loss: 0.1131 Elapsed: 2:17:38.913331
+[2021-11-04 02:06:36] Epoch [5/10], Iter [40/119] valid loss: 0.1380 Elapsed: 2:18:02.523553
+[2021-11-04 02:06:59] Epoch [5/10], Iter [50/119] valid loss: 0.1275 Elapsed: 2:18:26.144695
+[2021-11-04 02:07:23] Epoch [5/10], Iter [60/119] valid loss: 0.1388 Elapsed: 2:18:49.855191
+[2021-11-04 02:07:47] Epoch [5/10], Iter [70/119] valid loss: 0.1256 Elapsed: 2:19:13.636213
+[2021-11-04 02:08:11] Epoch [5/10], Iter [80/119] valid loss: 0.1279 Elapsed: 2:19:37.348996
+[2021-11-04 02:08:34] Epoch [5/10], Iter [90/119] valid loss: 0.1188 Elapsed: 2:20:01.218105
+[2021-11-04 02:08:59] Epoch [5/10], Iter [100/119] valid loss: 0.1229 Elapsed: 2:20:25.417214
+[2021-11-04 02:09:24] Epoch [5/10], Iter [110/119] valid loss: 0.1407 Elapsed: 2:20:50.382700
+roc_auc: 0.6320
+pr_auc: 0.0584
+mood/theme---action 		 0.5643 , 0.0170
+mood/theme---adventure 		 0.5407 , 0.0272
+mood/theme---advertising 		 0.6837 , 0.0895
+mood/theme---background 		 0.5652 , 0.0094
+mood/theme---ballad 		 0.6813 , 0.0385
+mood/theme---calm 		 0.3841 , 0.0242
+mood/theme---children 		 0.5641 , 0.0374
+mood/theme---christmas 		 0.7235 , 0.0574
+mood/theme---commercial 		 0.7079 , 0.1043
+mood/theme---cool 		 0.7218 , 0.0172
+mood/theme---corporate 		 0.6521 , 0.0785
+mood/theme---dark 		 0.5597 , 0.0707
+mood/theme---deep 		 0.7017 , 0.1295
+mood/theme---documentary 		 0.5247 , 0.0379
+mood/theme---drama 		 0.6922 , 0.0456
+mood/theme---dramatic 		 0.5638 , 0.0121
+mood/theme---dream 		 0.6057 , 0.1061
+mood/theme---emotional 		 0.6327 , 0.1339
+mood/theme---energetic 		 0.7662 , 0.1466
+mood/theme---epic 		 0.8493 , 0.2410
+mood/theme---fast 		 0.6359 , 0.0121
+mood/theme---film 		 0.6713 , 0.0999
+mood/theme---fun 		 0.7398 , 0.1348
+mood/theme---funny 		 0.7097 , 0.0123
+mood/theme---game 		 0.4533 , 0.0063
+mood/theme---groovy 		 0.5053 , 0.0201
+mood/theme---happy 		 0.6623 , 0.1751
+mood/theme---heavy 		 0.6802 , 0.0134
+mood/theme---holiday 		 0.5565 , 0.0137
+mood/theme---hopeful 		 0.5477 , 0.0108
+mood/theme---inspiring 		 0.5661 , 0.0422
+mood/theme---love 		 0.6084 , 0.0941
+mood/theme---meditative 		 0.6765 , 0.0802
+mood/theme---melancholic 		 0.6592 , 0.0471
+mood/theme---melodic 		 0.4964 , 0.0925
+mood/theme---motivational 		 0.7582 , 0.0877
+mood/theme---movie 		 0.6376 , 0.0442
+mood/theme---nature 		 0.7058 , 0.0502
+mood/theme---party 		 0.5792 , 0.0274
+mood/theme---positive 		 0.6344 , 0.0271
+mood/theme---powerful 		 0.5990 , 0.0197
+mood/theme---relaxing 		 0.6879 , 0.1207
+mood/theme---retro 		 0.5697 , 0.0118
+mood/theme---romantic 		 0.6465 , 0.0560
+mood/theme---sad 		 0.6547 , 0.0762
+mood/theme---sexy 		 0.5303 , 0.0102
+mood/theme---slow 		 0.5343 , 0.0195
+mood/theme---soft 		 0.6202 , 0.0463
+mood/theme---soundscape 		 0.6700 , 0.0191
+mood/theme---space 		 0.5882 , 0.0374
+mood/theme---sport 		 0.7910 , 0.0416
+mood/theme---summer 		 0.7592 , 0.0558
+mood/theme---trailer 		 0.8195 , 0.1039
+mood/theme---travel 		 0.5386 , 0.0219
+mood/theme---upbeat 		 0.5910 , 0.0450
+mood/theme---uplifting 		 0.6241 , 0.0670
+best model: 0.632013
+[2021-11-04 02:10:42] Epoch [6/10] Iter [10/311] train loss: 0.1451 Elapsed: 2:22:08.575801
+[2021-11-04 02:11:37] Epoch [6/10] Iter [20/311] train loss: 0.1556 Elapsed: 2:23:03.963700
+[2021-11-04 02:12:33] Epoch [6/10] Iter [30/311] train loss: 0.1413 Elapsed: 2:23:59.331596
+[2021-11-04 02:13:28] Epoch [6/10] Iter [40/311] train loss: 0.1176 Elapsed: 2:24:54.677855
+[2021-11-04 02:14:23] Epoch [6/10] Iter [50/311] train loss: 0.1497 Elapsed: 2:25:50.048357
+[2021-11-04 02:15:18] Epoch [6/10] Iter [60/311] train loss: 0.1684 Elapsed: 2:26:45.083597
+[2021-11-04 02:16:13] Epoch [6/10] Iter [70/311] train loss: 0.1502 Elapsed: 2:27:40.191789
+[2021-11-04 02:17:09] Epoch [6/10] Iter [80/311] train loss: 0.1507 Elapsed: 2:28:35.809402
+[2021-11-04 02:18:04] Epoch [6/10] Iter [90/311] train loss: 0.1549 Elapsed: 2:29:31.269400
+[2021-11-04 02:19:00] Epoch [6/10] Iter [100/311] train loss: 0.1620 Elapsed: 2:30:26.925078
+[2021-11-04 02:19:56] Epoch [6/10] Iter [110/311] train loss: 0.1360 Elapsed: 2:31:22.300611
+[2021-11-04 02:20:51] Epoch [6/10] Iter [120/311] train loss: 0.1478 Elapsed: 2:32:17.968865
+[2021-11-04 02:21:47] Epoch [6/10] Iter [130/311] train loss: 0.1644 Elapsed: 2:33:13.625772
+[2021-11-04 02:22:43] Epoch [6/10] Iter [140/311] train loss: 0.1379 Elapsed: 2:34:09.741662
+[2021-11-04 02:23:39] Epoch [6/10] Iter [150/311] train loss: 0.1264 Elapsed: 2:35:05.970833
+[2021-11-04 02:24:35] Epoch [6/10] Iter [160/311] train loss: 0.1390 Elapsed: 2:36:01.669862
+[2021-11-04 02:25:31] Epoch [6/10] Iter [170/311] train loss: 0.1486 Elapsed: 2:36:57.705068
+[2021-11-04 02:26:27] Epoch [6/10] Iter [180/311] train loss: 0.1403 Elapsed: 2:37:53.947455
+[2021-11-04 02:27:23] Epoch [6/10] Iter [190/311] train loss: 0.1651 Elapsed: 2:38:50.243361
+[2021-11-04 02:28:20] Epoch [6/10] Iter [200/311] train loss: 0.1495 Elapsed: 2:39:46.508355
+[2021-11-04 02:29:16] Epoch [6/10] Iter [210/311] train loss: 0.1648 Elapsed: 2:40:42.453431
+[2021-11-04 02:30:12] Epoch [6/10] Iter [220/311] train loss: 0.1585 Elapsed: 2:41:38.618440
+[2021-11-04 02:31:08] Epoch [6/10] Iter [230/311] train loss: 0.1868 Elapsed: 2:42:34.748349
+[2021-11-04 02:32:04] Epoch [6/10] Iter [240/311] train loss: 0.1226 Elapsed: 2:43:31.137189
+[2021-11-04 02:33:00] Epoch [6/10] Iter [250/311] train loss: 0.1456 Elapsed: 2:44:27.217229
+[2021-11-04 02:33:57] Epoch [6/10] Iter [260/311] train loss: 0.1411 Elapsed: 2:45:23.484768
+[2021-11-04 02:34:53] Epoch [6/10] Iter [270/311] train loss: 0.1544 Elapsed: 2:46:19.694271
+[2021-11-04 02:35:49] Epoch [6/10] Iter [280/311] train loss: 0.1379 Elapsed: 2:47:15.640239
+[2021-11-04 02:36:45] Epoch [6/10] Iter [290/311] train loss: 0.1412 Elapsed: 2:48:11.892450
+[2021-11-04 02:37:41] Epoch [6/10] Iter [300/311] train loss: 0.1372 Elapsed: 2:49:07.941626
+[2021-11-04 02:38:38] Epoch [6/10] Iter [310/311] train loss: 0.1511 Elapsed: 2:50:04.455340
+[2021-11-04 02:39:13] Epoch [6/10], Iter [10/119] valid loss: 0.1153 Elapsed: 2:50:40.208992
+[2021-11-04 02:39:43] Epoch [6/10], Iter [20/119] valid loss: 0.1281 Elapsed: 2:51:09.830206
+[2021-11-04 02:40:13] Epoch [6/10], Iter [30/119] valid loss: 0.1185 Elapsed: 2:51:39.316849
+[2021-11-04 02:40:44] Epoch [6/10], Iter [40/119] valid loss: 0.1230 Elapsed: 2:52:10.327145
+[2021-11-04 02:41:12] Epoch [6/10], Iter [50/119] valid loss: 0.1211 Elapsed: 2:52:39.188217
+[2021-11-04 02:41:43] Epoch [6/10], Iter [60/119] valid loss: 0.1108 Elapsed: 2:53:09.336140
+[2021-11-04 02:42:13] Epoch [6/10], Iter [70/119] valid loss: 0.1004 Elapsed: 2:53:40.027760
+[2021-11-04 02:42:42] Epoch [6/10], Iter [80/119] valid loss: 0.1306 Elapsed: 2:54:09.048196
+[2021-11-04 02:43:13] Epoch [6/10], Iter [90/119] valid loss: 0.1181 Elapsed: 2:54:39.646181
+[2021-11-04 02:43:43] Epoch [6/10], Iter [100/119] valid loss: 0.1333 Elapsed: 2:55:09.588511
+[2021-11-04 02:44:13] Epoch [6/10], Iter [110/119] valid loss: 0.1339 Elapsed: 2:55:39.430562
+roc_auc: 0.6411
+pr_auc: 0.0635
+mood/theme---action 		 0.6879 , 0.0281
+mood/theme---adventure 		 0.5569 , 0.0282
+mood/theme---advertising 		 0.7248 , 0.1211
+mood/theme---background 		 0.5329 , 0.0098
+mood/theme---ballad 		 0.6810 , 0.0347
+mood/theme---calm 		 0.3748 , 0.0210
+mood/theme---children 		 0.5152 , 0.0388
+mood/theme---christmas 		 0.7356 , 0.0576
+mood/theme---commercial 		 0.7234 , 0.0918
+mood/theme---cool 		 0.7308 , 0.0184
+mood/theme---corporate 		 0.6980 , 0.0845
+mood/theme---dark 		 0.5794 , 0.0757
+mood/theme---deep 		 0.7306 , 0.1852
+mood/theme---documentary 		 0.4517 , 0.0319
+mood/theme---drama 		 0.6808 , 0.0438
+mood/theme---dramatic 		 0.5757 , 0.0142
+mood/theme---dream 		 0.5984 , 0.0840
+mood/theme---emotional 		 0.6163 , 0.1199
+mood/theme---energetic 		 0.7613 , 0.1486
+mood/theme---epic 		 0.8720 , 0.3063
+mood/theme---fast 		 0.7007 , 0.0143
+mood/theme---film 		 0.7037 , 0.1198
+mood/theme---fun 		 0.7746 , 0.1697
+mood/theme---funny 		 0.6930 , 0.0104
+mood/theme---game 		 0.4432 , 0.0060
+mood/theme---groovy 		 0.6230 , 0.0304
+mood/theme---happy 		 0.6539 , 0.1735
+mood/theme---heavy 		 0.8207 , 0.0298
+mood/theme---holiday 		 0.5194 , 0.0104
+mood/theme---hopeful 		 0.4811 , 0.0090
+mood/theme---inspiring 		 0.5889 , 0.0465
+mood/theme---love 		 0.5754 , 0.0916
+mood/theme---meditative 		 0.6715 , 0.0898
+mood/theme---melancholic 		 0.6444 , 0.0470
+mood/theme---melodic 		 0.4958 , 0.0910
+mood/theme---motivational 		 0.7583 , 0.1196
+mood/theme---movie 		 0.6303 , 0.0438
+mood/theme---nature 		 0.5795 , 0.0261
+mood/theme---party 		 0.6646 , 0.0353
+mood/theme---positive 		 0.6527 , 0.0289
+mood/theme---powerful 		 0.5880 , 0.0162
+mood/theme---relaxing 		 0.7057 , 0.1292
+mood/theme---retro 		 0.5810 , 0.0123
+mood/theme---romantic 		 0.6110 , 0.0455
+mood/theme---sad 		 0.6527 , 0.0728
+mood/theme---sexy 		 0.6344 , 0.0147
+mood/theme---slow 		 0.6039 , 0.0218
+mood/theme---soft 		 0.4896 , 0.0331
+mood/theme---soundscape 		 0.6527 , 0.0163
+mood/theme---space 		 0.6512 , 0.0487
+mood/theme---sport 		 0.8380 , 0.0705
+mood/theme---summer 		 0.7963 , 0.0807
+mood/theme---trailer 		 0.8281 , 0.1212
+mood/theme---travel 		 0.5345 , 0.0257
+mood/theme---upbeat 		 0.6035 , 0.0421
+mood/theme---uplifting 		 0.6289 , 0.0686
+best model: 0.641100
+[2021-11-04 02:45:35] Epoch [7/10] Iter [10/311] train loss: 0.1544 Elapsed: 2:57:01.406703
+[2021-11-04 02:46:30] Epoch [7/10] Iter [20/311] train loss: 0.1455 Elapsed: 2:57:56.676330
+[2021-11-04 02:47:25] Epoch [7/10] Iter [30/311] train loss: 0.1172 Elapsed: 2:58:51.889532
+[2021-11-04 02:48:20] Epoch [7/10] Iter [40/311] train loss: 0.1489 Elapsed: 2:59:46.830244
+[2021-11-04 02:49:15] Epoch [7/10] Iter [50/311] train loss: 0.1462 Elapsed: 3:00:41.998579
+[2021-11-04 02:50:10] Epoch [7/10] Iter [60/311] train loss: 0.1280 Elapsed: 3:01:36.926523
+[2021-11-04 02:51:06] Epoch [7/10] Iter [70/311] train loss: 0.1069 Elapsed: 3:02:32.548046
+[2021-11-04 02:52:01] Epoch [7/10] Iter [80/311] train loss: 0.1459 Elapsed: 3:03:28.078874
+[2021-11-04 02:52:57] Epoch [7/10] Iter [90/311] train loss: 0.1460 Elapsed: 3:04:23.488336
+[2021-11-04 02:53:52] Epoch [7/10] Iter [100/311] train loss: 0.1417 Elapsed: 3:05:18.791482
+[2021-11-04 02:54:48] Epoch [7/10] Iter [110/311] train loss: 0.1482 Elapsed: 3:06:14.376017
+[2021-11-04 02:55:44] Epoch [7/10] Iter [120/311] train loss: 0.1520 Elapsed: 3:07:10.318314
+[2021-11-04 02:56:39] Epoch [7/10] Iter [130/311] train loss: 0.1660 Elapsed: 3:08:06.281882
+[2021-11-04 02:57:36] Epoch [7/10] Iter [140/311] train loss: 0.1367 Elapsed: 3:09:02.328734
+[2021-11-04 02:58:34] Epoch [7/10] Iter [150/311] train loss: 0.1251 Elapsed: 3:10:00.463574
+[2021-11-04 02:59:30] Epoch [7/10] Iter [160/311] train loss: 0.1306 Elapsed: 3:10:57.047233
+[2021-11-04 03:00:27] Epoch [7/10] Iter [170/311] train loss: 0.1053 Elapsed: 3:11:53.950207
+[2021-11-04 03:01:23] Epoch [7/10] Iter [180/311] train loss: 0.1505 Elapsed: 3:12:50.033448
+[2021-11-04 03:02:20] Epoch [7/10] Iter [190/311] train loss: 0.1287 Elapsed: 3:13:46.460600
+[2021-11-04 03:03:16] Epoch [7/10] Iter [200/311] train loss: 0.1598 Elapsed: 3:14:42.768607
+[2021-11-04 03:04:12] Epoch [7/10] Iter [210/311] train loss: 0.1562 Elapsed: 3:15:38.892304
+[2021-11-04 03:05:09] Epoch [7/10] Iter [220/311] train loss: 0.1498 Elapsed: 3:16:35.463656
+[2021-11-04 03:06:05] Epoch [7/10] Iter [230/311] train loss: 0.1339 Elapsed: 3:17:31.971453
+[2021-11-04 03:07:02] Epoch [7/10] Iter [240/311] train loss: 0.1419 Elapsed: 3:18:28.627013
+[2021-11-04 03:07:58] Epoch [7/10] Iter [250/311] train loss: 0.1379 Elapsed: 3:19:24.920310
+[2021-11-04 03:08:55] Epoch [7/10] Iter [260/311] train loss: 0.1634 Elapsed: 3:20:21.348542
+[2021-11-04 03:09:51] Epoch [7/10] Iter [270/311] train loss: 0.1383 Elapsed: 3:21:17.609861
+[2021-11-04 03:10:48] Epoch [7/10] Iter [280/311] train loss: 0.1296 Elapsed: 3:22:14.374903
+[2021-11-04 03:11:44] Epoch [7/10] Iter [290/311] train loss: 0.1262 Elapsed: 3:23:11.038731
+[2021-11-04 03:12:41] Epoch [7/10] Iter [300/311] train loss: 0.1383 Elapsed: 3:24:07.734354
+[2021-11-04 03:13:37] Epoch [7/10] Iter [310/311] train loss: 0.1364 Elapsed: 3:25:04.083098
+[2021-11-04 03:14:13] Epoch [7/10], Iter [10/119] valid loss: 0.1183 Elapsed: 3:25:40.179683
+[2021-11-04 03:14:44] Epoch [7/10], Iter [20/119] valid loss: 0.1094 Elapsed: 3:26:10.512366
+[2021-11-04 03:15:14] Epoch [7/10], Iter [30/119] valid loss: 0.1359 Elapsed: 3:26:41.094716
+[2021-11-04 03:15:44] Epoch [7/10], Iter [40/119] valid loss: 0.1358 Elapsed: 3:27:10.898626
+[2021-11-04 03:16:14] Epoch [7/10], Iter [50/119] valid loss: 0.1310 Elapsed: 3:27:40.943042
+[2021-11-04 03:16:43] Epoch [7/10], Iter [60/119] valid loss: 0.1309 Elapsed: 3:28:09.941661
+[2021-11-04 03:17:14] Epoch [7/10], Iter [70/119] valid loss: 0.1290 Elapsed: 3:28:40.718362
+[2021-11-04 03:17:44] Epoch [7/10], Iter [80/119] valid loss: 0.1150 Elapsed: 3:29:10.908909
+[2021-11-04 03:18:12] Epoch [7/10], Iter [90/119] valid loss: 0.1192 Elapsed: 3:29:38.353024
+[2021-11-04 03:18:41] Epoch [7/10], Iter [100/119] valid loss: 0.1203 Elapsed: 3:30:08.085973
+[2021-11-04 03:19:13] Epoch [7/10], Iter [110/119] valid loss: 0.1226 Elapsed: 3:30:39.691005
+roc_auc: 0.6389
+pr_auc: 0.0662
+mood/theme---action 		 0.6511 , 0.0671
+mood/theme---adventure 		 0.5860 , 0.0373
+mood/theme---advertising 		 0.7131 , 0.1191
+mood/theme---background 		 0.4211 , 0.0069
+mood/theme---ballad 		 0.7736 , 0.0512
+mood/theme---calm 		 0.3562 , 0.0215
+mood/theme---children 		 0.4397 , 0.0289
+mood/theme---christmas 		 0.7094 , 0.0609
+mood/theme---commercial 		 0.7241 , 0.0842
+mood/theme---cool 		 0.6952 , 0.0148
+mood/theme---corporate 		 0.6760 , 0.0889
+mood/theme---dark 		 0.6000 , 0.0820
+mood/theme---deep 		 0.7621 , 0.1918
+mood/theme---documentary 		 0.5318 , 0.0407
+mood/theme---drama 		 0.6512 , 0.0386
+mood/theme---dramatic 		 0.5748 , 0.0121
+mood/theme---dream 		 0.5831 , 0.0742
+mood/theme---emotional 		 0.6105 , 0.1245
+mood/theme---energetic 		 0.7500 , 0.1287
+mood/theme---epic 		 0.8678 , 0.3159
+mood/theme---fast 		 0.6339 , 0.0099
+mood/theme---film 		 0.6938 , 0.1273
+mood/theme---fun 		 0.7780 , 0.1539
+mood/theme---funny 		 0.7158 , 0.0121
+mood/theme---game 		 0.4389 , 0.0068
+mood/theme---groovy 		 0.6800 , 0.0351
+mood/theme---happy 		 0.7135 , 0.2073
+mood/theme---heavy 		 0.6344 , 0.0114
+mood/theme---holiday 		 0.5788 , 0.0122
+mood/theme---hopeful 		 0.5312 , 0.0103
+mood/theme---inspiring 		 0.6368 , 0.0587
+mood/theme---love 		 0.5775 , 0.0795
+mood/theme---meditative 		 0.6922 , 0.1000
+mood/theme---melancholic 		 0.6256 , 0.0660
+mood/theme---melodic 		 0.5301 , 0.1045
+mood/theme---motivational 		 0.7586 , 0.1383
+mood/theme---movie 		 0.4891 , 0.0304
+mood/theme---nature 		 0.6493 , 0.0395
+mood/theme---party 		 0.7046 , 0.0400
+mood/theme---positive 		 0.6617 , 0.0290
+mood/theme---powerful 		 0.5841 , 0.0158
+mood/theme---relaxing 		 0.7187 , 0.1601
+mood/theme---retro 		 0.5687 , 0.0118
+mood/theme---romantic 		 0.5994 , 0.0414
+mood/theme---sad 		 0.6424 , 0.0599
+mood/theme---sexy 		 0.6805 , 0.0177
+mood/theme---slow 		 0.5203 , 0.0222
+mood/theme---soft 		 0.5498 , 0.0405
+mood/theme---soundscape 		 0.6767 , 0.0204
+mood/theme---space 		 0.6092 , 0.0492
+mood/theme---sport 		 0.8127 , 0.0377
+mood/theme---summer 		 0.8044 , 0.0877
+mood/theme---trailer 		 0.8316 , 0.1539
+mood/theme---travel 		 0.5272 , 0.0253
+mood/theme---upbeat 		 0.6316 , 0.0455
+mood/theme---uplifting 		 0.6219 , 0.0585
+[2021-11-04 03:20:35] Epoch [8/10] Iter [10/311] train loss: 0.1376 Elapsed: 3:32:01.475555
+[2021-11-04 03:21:30] Epoch [8/10] Iter [20/311] train loss: 0.1289 Elapsed: 3:32:56.731085
+[2021-11-04 03:22:25] Epoch [8/10] Iter [30/311] train loss: 0.1432 Elapsed: 3:33:52.181895
+[2021-11-04 03:23:21] Epoch [8/10] Iter [40/311] train loss: 0.1434 Elapsed: 3:34:47.926684
+[2021-11-04 03:24:16] Epoch [8/10] Iter [50/311] train loss: 0.1387 Elapsed: 3:35:43.094466
+[2021-11-04 03:25:12] Epoch [8/10] Iter [60/311] train loss: 0.1402 Elapsed: 3:36:38.353763
+[2021-11-04 03:26:07] Epoch [8/10] Iter [70/311] train loss: 0.1313 Elapsed: 3:37:33.638491
+[2021-11-04 03:27:02] Epoch [8/10] Iter [80/311] train loss: 0.1499 Elapsed: 3:38:29.186679
+[2021-11-04 03:27:58] Epoch [8/10] Iter [90/311] train loss: 0.1250 Elapsed: 3:39:24.730549
+[2021-11-04 03:28:54] Epoch [8/10] Iter [100/311] train loss: 0.1335 Elapsed: 3:40:20.457400
+[2021-11-04 03:29:49] Epoch [8/10] Iter [110/311] train loss: 0.1479 Elapsed: 3:41:16.067568
+[2021-11-04 03:30:45] Epoch [8/10] Iter [120/311] train loss: 0.1317 Elapsed: 3:42:11.832058
+[2021-11-04 03:31:41] Epoch [8/10] Iter [130/311] train loss: 0.1335 Elapsed: 3:43:07.561126
+[2021-11-04 03:32:37] Epoch [8/10] Iter [140/311] train loss: 0.1457 Elapsed: 3:44:03.571747
+[2021-11-04 03:33:33] Epoch [8/10] Iter [150/311] train loss: 0.1353 Elapsed: 3:44:59.913482
+[2021-11-04 03:34:29] Epoch [8/10] Iter [160/311] train loss: 0.1323 Elapsed: 3:45:55.802894
+[2021-11-04 03:35:25] Epoch [8/10] Iter [170/311] train loss: 0.1474 Elapsed: 3:46:52.024361
+[2021-11-04 03:36:21] Epoch [8/10] Iter [180/311] train loss: 0.1282 Elapsed: 3:47:47.978932
+[2021-11-04 03:37:17] Epoch [8/10] Iter [190/311] train loss: 0.1209 Elapsed: 3:48:44.169603
+[2021-11-04 03:38:14] Epoch [8/10] Iter [200/311] train loss: 0.1217 Elapsed: 3:49:41.130496
+[2021-11-04 03:39:11] Epoch [8/10] Iter [210/311] train loss: 0.1170 Elapsed: 3:50:37.756263
+[2021-11-04 03:40:08] Epoch [8/10] Iter [220/311] train loss: 0.1367 Elapsed: 3:51:34.490645
+[2021-11-04 03:41:04] Epoch [8/10] Iter [230/311] train loss: 0.1457 Elapsed: 3:52:31.290952
+[2021-11-04 03:42:01] Epoch [8/10] Iter [240/311] train loss: 0.1352 Elapsed: 3:53:27.946973
+[2021-11-04 03:42:58] Epoch [8/10] Iter [250/311] train loss: 0.1622 Elapsed: 3:54:24.835067
+[2021-11-04 03:43:56] Epoch [8/10] Iter [260/311] train loss: 0.1337 Elapsed: 3:55:22.562493
+[2021-11-04 03:44:53] Epoch [8/10] Iter [270/311] train loss: 0.1352 Elapsed: 3:56:19.667774
+[2021-11-04 03:45:50] Epoch [8/10] Iter [280/311] train loss: 0.1449 Elapsed: 3:57:16.660669
+[2021-11-04 03:46:47] Epoch [8/10] Iter [290/311] train loss: 0.1548 Elapsed: 3:58:13.779687
+[2021-11-04 03:47:44] Epoch [8/10] Iter [300/311] train loss: 0.1326 Elapsed: 3:59:11.026070
+[2021-11-04 03:48:41] Epoch [8/10] Iter [310/311] train loss: 0.1299 Elapsed: 4:00:07.938826
+[2021-11-04 03:49:14] Epoch [8/10], Iter [10/119] valid loss: 0.1264 Elapsed: 4:00:40.327241
+[2021-11-04 03:49:43] Epoch [8/10], Iter [20/119] valid loss: 0.1318 Elapsed: 4:01:09.994784
+[2021-11-04 03:50:15] Epoch [8/10], Iter [30/119] valid loss: 0.1143 Elapsed: 4:01:42.142639
+[2021-11-04 03:50:44] Epoch [8/10], Iter [40/119] valid loss: 0.1363 Elapsed: 4:02:10.857939
+[2021-11-04 03:51:16] Epoch [8/10], Iter [50/119] valid loss: 0.1045 Elapsed: 4:02:42.515178
+[2021-11-04 03:51:47] Epoch [8/10], Iter [60/119] valid loss: 0.1204 Elapsed: 4:03:13.584958
+[2021-11-04 03:52:17] Epoch [8/10], Iter [70/119] valid loss: 0.1001 Elapsed: 4:03:44.292228
+[2021-11-04 03:52:47] Epoch [8/10], Iter [80/119] valid loss: 0.1302 Elapsed: 4:04:13.453398
+[2021-11-04 03:53:18] Epoch [8/10], Iter [90/119] valid loss: 0.1266 Elapsed: 4:04:45.206897
+[2021-11-04 03:53:48] Epoch [8/10], Iter [100/119] valid loss: 0.1337 Elapsed: 4:05:15.149352
+[2021-11-04 03:54:17] Epoch [8/10], Iter [110/119] valid loss: 0.1207 Elapsed: 4:05:43.491685
+roc_auc: 0.6517
+pr_auc: 0.0618
+mood/theme---action 		 0.6412 , 0.0210
+mood/theme---adventure 		 0.5360 , 0.0221
+mood/theme---advertising 		 0.7313 , 0.1081
+mood/theme---background 		 0.5459 , 0.0114
+mood/theme---ballad 		 0.6556 , 0.0315
+mood/theme---calm 		 0.5426 , 0.0276
+mood/theme---children 		 0.6626 , 0.0613
+mood/theme---christmas 		 0.7097 , 0.0514
+mood/theme---commercial 		 0.7320 , 0.0816
+mood/theme---cool 		 0.6897 , 0.0147
+mood/theme---corporate 		 0.7743 , 0.0985
+mood/theme---dark 		 0.5395 , 0.0663
+mood/theme---deep 		 0.7420 , 0.1467
+mood/theme---documentary 		 0.5945 , 0.0411
+mood/theme---drama 		 0.6856 , 0.0421
+mood/theme---dramatic 		 0.6401 , 0.0140
+mood/theme---dream 		 0.6133 , 0.0889
+mood/theme---emotional 		 0.6034 , 0.1256
+mood/theme---energetic 		 0.7560 , 0.1324
+mood/theme---epic 		 0.8568 , 0.2952
+mood/theme---fast 		 0.3691 , 0.0055
+mood/theme---film 		 0.6981 , 0.1213
+mood/theme---fun 		 0.7692 , 0.1701
+mood/theme---funny 		 0.7061 , 0.0130
+mood/theme---game 		 0.4799 , 0.0073
+mood/theme---groovy 		 0.6201 , 0.0257
+mood/theme---happy 		 0.6989 , 0.2121
+mood/theme---heavy 		 0.7486 , 0.0185
+mood/theme---holiday 		 0.5719 , 0.0108
+mood/theme---hopeful 		 0.4786 , 0.0085
+mood/theme---inspiring 		 0.7026 , 0.0792
+mood/theme---love 		 0.5488 , 0.0672
+mood/theme---meditative 		 0.6971 , 0.0823
+mood/theme---melancholic 		 0.6179 , 0.0399
+mood/theme---melodic 		 0.4856 , 0.0904
+mood/theme---motivational 		 0.7937 , 0.0842
+mood/theme---movie 		 0.6493 , 0.0533
+mood/theme---nature 		 0.6655 , 0.0578
+mood/theme---party 		 0.6418 , 0.0330
+mood/theme---positive 		 0.7272 , 0.0377
+mood/theme---powerful 		 0.6146 , 0.0184
+mood/theme---relaxing 		 0.7111 , 0.1288
+mood/theme---retro 		 0.5848 , 0.0124
+mood/theme---romantic 		 0.6234 , 0.0558
+mood/theme---sad 		 0.6500 , 0.0821
+mood/theme---sexy 		 0.6909 , 0.0248
+mood/theme---slow 		 0.6194 , 0.0200
+mood/theme---soft 		 0.6622 , 0.0617
+mood/theme---soundscape 		 0.6339 , 0.0163
+mood/theme---space 		 0.6388 , 0.0412
+mood/theme---sport 		 0.7782 , 0.0285
+mood/theme---summer 		 0.7831 , 0.0677
+mood/theme---trailer 		 0.8157 , 0.0831
+mood/theme---travel 		 0.5603 , 0.0254
+mood/theme---upbeat 		 0.6108 , 0.0425
+mood/theme---uplifting 		 0.5934 , 0.0532
+best model: 0.651651
+[2021-11-04 03:55:36] Epoch [9/10] Iter [10/311] train loss: 0.1338 Elapsed: 4:07:03.107764
+[2021-11-04 03:56:33] Epoch [9/10] Iter [20/311] train loss: 0.1543 Elapsed: 4:07:59.362306
+[2021-11-04 03:57:29] Epoch [9/10] Iter [30/311] train loss: 0.1313 Elapsed: 4:08:55.534401
+[2021-11-04 03:58:25] Epoch [9/10] Iter [40/311] train loss: 0.1428 Elapsed: 4:09:51.841443
+[2021-11-04 03:59:21] Epoch [9/10] Iter [50/311] train loss: 0.1288 Elapsed: 4:10:48.155581
+[2021-11-04 04:00:18] Epoch [9/10] Iter [60/311] train loss: 0.1370 Elapsed: 4:11:44.404115
+[2021-11-04 04:01:14] Epoch [9/10] Iter [70/311] train loss: 0.1570 Elapsed: 4:12:40.673773
+[2021-11-04 04:02:10] Epoch [9/10] Iter [80/311] train loss: 0.1383 Elapsed: 4:13:37.097992
+[2021-11-04 04:03:07] Epoch [9/10] Iter [90/311] train loss: 0.1376 Elapsed: 4:14:33.374085
+[2021-11-04 04:04:03] Epoch [9/10] Iter [100/311] train loss: 0.1453 Elapsed: 4:15:29.690864
+[2021-11-04 04:05:00] Epoch [9/10] Iter [110/311] train loss: 0.1257 Elapsed: 4:16:26.372733
+[2021-11-04 04:05:57] Epoch [9/10] Iter [120/311] train loss: 0.1389 Elapsed: 4:17:23.353090
+[2021-11-04 04:06:54] Epoch [9/10] Iter [130/311] train loss: 0.1693 Elapsed: 4:18:20.454170
+[2021-11-04 04:07:51] Epoch [9/10] Iter [140/311] train loss: 0.1280 Elapsed: 4:19:17.332935
+[2021-11-04 04:08:48] Epoch [9/10] Iter [150/311] train loss: 0.1647 Elapsed: 4:20:14.459153
+[2021-11-04 04:09:45] Epoch [9/10] Iter [160/311] train loss: 0.1345 Elapsed: 4:21:11.793962
+[2021-11-04 04:10:42] Epoch [9/10] Iter [170/311] train loss: 0.1490 Elapsed: 4:22:09.095407
+[2021-11-04 04:11:40] Epoch [9/10] Iter [180/311] train loss: 0.1344 Elapsed: 4:23:06.376728
+[2021-11-04 04:12:37] Epoch [9/10] Iter [190/311] train loss: 0.1337 Elapsed: 4:24:03.522696
+[2021-11-04 04:13:34] Epoch [9/10] Iter [200/311] train loss: 0.1343 Elapsed: 4:25:00.832660
+[2021-11-04 04:14:32] Epoch [9/10] Iter [210/311] train loss: 0.1265 Elapsed: 4:25:58.431773
+[2021-11-04 04:15:29] Epoch [9/10] Iter [220/311] train loss: 0.1465 Elapsed: 4:26:55.869812
+[2021-11-04 04:16:27] Epoch [9/10] Iter [230/311] train loss: 0.1327 Elapsed: 4:27:53.365884
+[2021-11-04 04:17:24] Epoch [9/10] Iter [240/311] train loss: 0.1228 Elapsed: 4:28:51.181475
+[2021-11-04 04:18:22] Epoch [9/10] Iter [250/311] train loss: 0.1354 Elapsed: 4:29:48.421622
+[2021-11-04 04:19:19] Epoch [9/10] Iter [260/311] train loss: 0.1194 Elapsed: 4:30:45.827112
+[2021-11-04 04:20:17] Epoch [9/10] Iter [270/311] train loss: 0.1509 Elapsed: 4:31:43.303992
+[2021-11-04 04:21:14] Epoch [9/10] Iter [280/311] train loss: 0.1150 Elapsed: 4:32:40.703306
+[2021-11-04 04:22:11] Epoch [9/10] Iter [290/311] train loss: 0.1468 Elapsed: 4:33:37.915664
+[2021-11-04 04:23:09] Epoch [9/10] Iter [300/311] train loss: 0.1367 Elapsed: 4:34:35.575649
+[2021-11-04 04:24:06] Epoch [9/10] Iter [310/311] train loss: 0.1223 Elapsed: 4:35:32.903210
+[2021-11-04 04:24:43] Epoch [9/10], Iter [10/119] valid loss: 0.1288 Elapsed: 4:36:10.047050
+[2021-11-04 04:25:14] Epoch [9/10], Iter [20/119] valid loss: 0.1200 Elapsed: 4:36:41.069390
+[2021-11-04 04:25:45] Epoch [9/10], Iter [30/119] valid loss: 0.1249 Elapsed: 4:37:12.031633
+[2021-11-04 04:26:17] Epoch [9/10], Iter [40/119] valid loss: 0.1180 Elapsed: 4:37:44.069185
+[2021-11-04 04:26:45] Epoch [9/10], Iter [50/119] valid loss: 0.1207 Elapsed: 4:38:12.079314
+[2021-11-04 04:27:16] Epoch [9/10], Iter [60/119] valid loss: 0.1342 Elapsed: 4:38:43.029123
+[2021-11-04 04:27:48] Epoch [9/10], Iter [70/119] valid loss: 0.1140 Elapsed: 4:39:14.513522
+[2021-11-04 04:28:19] Epoch [9/10], Iter [80/119] valid loss: 0.1450 Elapsed: 4:39:45.440547
+[2021-11-04 04:28:48] Epoch [9/10], Iter [90/119] valid loss: 0.1206 Elapsed: 4:40:15.025108
+[2021-11-04 04:29:19] Epoch [9/10], Iter [100/119] valid loss: 0.1171 Elapsed: 4:40:46.053042
+[2021-11-04 04:29:50] Epoch [9/10], Iter [110/119] valid loss: 0.1207 Elapsed: 4:41:17.164447
+roc_auc: 0.6653
+pr_auc: 0.0687
+mood/theme---action 		 0.6947 , 0.0322
+mood/theme---adventure 		 0.5003 , 0.0197
+mood/theme---advertising 		 0.7293 , 0.1211
+mood/theme---background 		 0.5585 , 0.0137
+mood/theme---ballad 		 0.6568 , 0.0288
+mood/theme---calm 		 0.5683 , 0.0305
+mood/theme---children 		 0.6195 , 0.0499
+mood/theme---christmas 		 0.7294 , 0.0596
+mood/theme---commercial 		 0.7501 , 0.0905
+mood/theme---cool 		 0.6747 , 0.0142
+mood/theme---corporate 		 0.7324 , 0.1083
+mood/theme---dark 		 0.5879 , 0.0911
+mood/theme---deep 		 0.7325 , 0.1751
+mood/theme---documentary 		 0.5276 , 0.0357
+mood/theme---drama 		 0.6812 , 0.0444
+mood/theme---dramatic 		 0.5991 , 0.0130
+mood/theme---dream 		 0.5951 , 0.0785
+mood/theme---emotional 		 0.6378 , 0.1373
+mood/theme---energetic 		 0.7611 , 0.1549
+mood/theme---epic 		 0.8735 , 0.3495
+mood/theme---fast 		 0.6300 , 0.0122
+mood/theme---film 		 0.6911 , 0.1103
+mood/theme---fun 		 0.7331 , 0.1198
+mood/theme---funny 		 0.6778 , 0.0137
+mood/theme---game 		 0.4673 , 0.0064
+mood/theme---groovy 		 0.7366 , 0.0427
+mood/theme---happy 		 0.6676 , 0.1900
+mood/theme---heavy 		 0.8683 , 0.0575
+mood/theme---holiday 		 0.5325 , 0.0120
+mood/theme---hopeful 		 0.5534 , 0.0105
+mood/theme---inspiring 		 0.6546 , 0.0592
+mood/theme---love 		 0.5734 , 0.0815
+mood/theme---meditative 		 0.6835 , 0.1026
+mood/theme---melancholic 		 0.6444 , 0.0426
+mood/theme---melodic 		 0.5439 , 0.1141
+mood/theme---motivational 		 0.8243 , 0.1605
+mood/theme---movie 		 0.6618 , 0.0545
+mood/theme---nature 		 0.6798 , 0.0325
+mood/theme---party 		 0.6944 , 0.0376
+mood/theme---positive 		 0.7163 , 0.0368
+mood/theme---powerful 		 0.6446 , 0.0206
+mood/theme---relaxing 		 0.7073 , 0.1317
+mood/theme---retro 		 0.6488 , 0.0161
+mood/theme---romantic 		 0.6612 , 0.0629
+mood/theme---sad 		 0.6547 , 0.0688
+mood/theme---sexy 		 0.6942 , 0.0206
+mood/theme---slow 		 0.6251 , 0.0211
+mood/theme---soft 		 0.5848 , 0.0481
+mood/theme---soundscape 		 0.6714 , 0.0176
+mood/theme---space 		 0.6883 , 0.0523
+mood/theme---sport 		 0.8261 , 0.0599
+mood/theme---summer 		 0.7975 , 0.0920
+mood/theme---trailer 		 0.8872 , 0.1733
+mood/theme---travel 		 0.5191 , 0.0156
+mood/theme---upbeat 		 0.5500 , 0.0380
+mood/theme---uplifting 		 0.6552 , 0.0614
+best model: 0.665341
+[2021-11-04 04:31:14] Epoch [10/10] Iter [10/311] train loss: 0.1337 Elapsed: 4:42:41.004320
+[2021-11-04 04:32:11] Epoch [10/10] Iter [20/311] train loss: 0.1451 Elapsed: 4:43:37.486481
+[2021-11-04 04:33:07] Epoch [10/10] Iter [30/311] train loss: 0.1480 Elapsed: 4:44:33.898087
+[2021-11-04 04:34:03] Epoch [10/10] Iter [40/311] train loss: 0.1323 Elapsed: 4:45:30.266814
+[2021-11-04 04:35:00] Epoch [10/10] Iter [50/311] train loss: 0.1429 Elapsed: 4:46:26.758349
+[2021-11-04 04:35:56] Epoch [10/10] Iter [60/311] train loss: 0.1328 Elapsed: 4:47:23.244675
+[2021-11-04 04:36:53] Epoch [10/10] Iter [70/311] train loss: 0.1476 Elapsed: 4:48:19.760438
+[2021-11-04 04:37:50] Epoch [10/10] Iter [80/311] train loss: 0.1246 Elapsed: 4:49:16.603481
+[2021-11-04 04:38:46] Epoch [10/10] Iter [90/311] train loss: 0.1363 Elapsed: 4:50:12.872913
+[2021-11-04 04:39:43] Epoch [10/10] Iter [100/311] train loss: 0.1448 Elapsed: 4:51:09.387009
+[2021-11-04 04:40:40] Epoch [10/10] Iter [110/311] train loss: 0.1381 Elapsed: 4:52:06.458943
+[2021-11-04 04:41:37] Epoch [10/10] Iter [120/311] train loss: 0.1211 Elapsed: 4:53:03.843821
+[2021-11-04 04:42:34] Epoch [10/10] Iter [130/311] train loss: 0.1249 Elapsed: 4:54:01.113177
+[2021-11-04 04:43:32] Epoch [10/10] Iter [140/311] train loss: 0.1312 Elapsed: 4:54:58.720973
+[2021-11-04 04:44:29] Epoch [10/10] Iter [150/311] train loss: 0.1245 Elapsed: 4:55:56.175891
+[2021-11-04 04:45:27] Epoch [10/10] Iter [160/311] train loss: 0.1312 Elapsed: 4:56:53.462355
+[2021-11-04 04:46:24] Epoch [10/10] Iter [170/311] train loss: 0.1357 Elapsed: 4:57:50.960715
+[2021-11-04 04:47:22] Epoch [10/10] Iter [180/311] train loss: 0.1170 Elapsed: 4:58:48.840561
+[2021-11-04 04:48:25] Epoch [10/10] Iter [190/311] train loss: 0.1387 Elapsed: 4:59:51.463599
+[2021-11-04 04:49:23] Epoch [10/10] Iter [200/311] train loss: 0.1159 Elapsed: 5:00:49.465883
+[2021-11-04 04:50:20] Epoch [10/10] Iter [210/311] train loss: 0.1343 Elapsed: 5:01:47.078854
+[2021-11-04 04:51:18] Epoch [10/10] Iter [220/311] train loss: 0.1205 Elapsed: 5:02:44.300740
+[2021-11-04 04:52:15] Epoch [10/10] Iter [230/311] train loss: 0.1439 Elapsed: 5:03:41.770561
+[2021-11-04 04:53:13] Epoch [10/10] Iter [240/311] train loss: 0.1227 Elapsed: 5:04:39.532073
+[2021-11-04 04:54:10] Epoch [10/10] Iter [250/311] train loss: 0.1182 Elapsed: 5:05:36.877227
+[2021-11-04 04:55:08] Epoch [10/10] Iter [260/311] train loss: 0.1313 Elapsed: 5:06:34.476666
+[2021-11-04 04:56:05] Epoch [10/10] Iter [270/311] train loss: 0.1193 Elapsed: 5:07:32.143069
+[2021-11-04 04:57:03] Epoch [10/10] Iter [280/311] train loss: 0.1597 Elapsed: 5:08:30.075683
+[2021-11-04 04:58:01] Epoch [10/10] Iter [290/311] train loss: 0.1096 Elapsed: 5:09:27.936639
+[2021-11-04 04:58:59] Epoch [10/10] Iter [300/311] train loss: 0.1358 Elapsed: 5:10:25.716980
+[2021-11-04 04:59:57] Epoch [10/10] Iter [310/311] train loss: 0.1244 Elapsed: 5:11:23.458402
+[2021-11-04 05:00:35] Epoch [10/10], Iter [10/119] valid loss: 0.1250 Elapsed: 5:12:01.387289
+[2021-11-04 05:01:06] Epoch [10/10], Iter [20/119] valid loss: 0.1227 Elapsed: 5:12:32.825644
+[2021-11-04 05:01:36] Epoch [10/10], Iter [30/119] valid loss: 0.1242 Elapsed: 5:13:03.135989
+[2021-11-04 05:02:06] Epoch [10/10], Iter [40/119] valid loss: 0.1369 Elapsed: 5:13:33.088446
+[2021-11-04 05:02:38] Epoch [10/10], Iter [50/119] valid loss: 0.1300 Elapsed: 5:14:04.692419
+[2021-11-04 05:03:08] Epoch [10/10], Iter [60/119] valid loss: 0.1482 Elapsed: 5:14:35.068774
+[2021-11-04 05:03:40] Epoch [10/10], Iter [70/119] valid loss: 0.1249 Elapsed: 5:15:06.782590
+[2021-11-04 05:04:11] Epoch [10/10], Iter [80/119] valid loss: 0.1409 Elapsed: 5:15:37.855301
+[2021-11-04 05:04:43] Epoch [10/10], Iter [90/119] valid loss: 0.1366 Elapsed: 5:16:09.853567
+[2021-11-04 05:05:13] Epoch [10/10], Iter [100/119] valid loss: 0.1293 Elapsed: 5:16:40.246054
+[2021-11-04 05:05:42] Epoch [10/10], Iter [110/119] valid loss: 0.1240 Elapsed: 5:17:08.301602
+roc_auc: 0.6696
+pr_auc: 0.0736
+mood/theme---action 		 0.6699 , 0.0592
+mood/theme---adventure 		 0.5186 , 0.0217
+mood/theme---advertising 		 0.7451 , 0.1414
+mood/theme---background 		 0.4905 , 0.0085
+mood/theme---ballad 		 0.7512 , 0.0531
+mood/theme---calm 		 0.4900 , 0.0273
+mood/theme---children 		 0.5680 , 0.0433
+mood/theme---christmas 		 0.7298 , 0.0590
+mood/theme---commercial 		 0.7756 , 0.0922
+mood/theme---cool 		 0.7149 , 0.0176
+mood/theme---corporate 		 0.7621 , 0.1338
+mood/theme---dark 		 0.6161 , 0.0922
+mood/theme---deep 		 0.7431 , 0.2014
+mood/theme---documentary 		 0.4729 , 0.0366
+mood/theme---drama 		 0.6676 , 0.0447
+mood/theme---dramatic 		 0.6557 , 0.0166
+mood/theme---dream 		 0.5841 , 0.0746
+mood/theme---emotional 		 0.6276 , 0.1340
+mood/theme---energetic 		 0.7604 , 0.1666
+mood/theme---epic 		 0.8768 , 0.3464
+mood/theme---fast 		 0.7536 , 0.0269
+mood/theme---film 		 0.7161 , 0.1417
+mood/theme---fun 		 0.7476 , 0.1396
+mood/theme---funny 		 0.7234 , 0.0131
+mood/theme---game 		 0.4703 , 0.0071
+mood/theme---groovy 		 0.7913 , 0.0579
+mood/theme---happy 		 0.6530 , 0.1817
+mood/theme---heavy 		 0.8914 , 0.0810
+mood/theme---holiday 		 0.5226 , 0.0115
+mood/theme---hopeful 		 0.5130 , 0.0096
+mood/theme---inspiring 		 0.6272 , 0.0527
+mood/theme---love 		 0.5797 , 0.0801
+mood/theme---meditative 		 0.6693 , 0.0810
+mood/theme---melancholic 		 0.6401 , 0.0447
+mood/theme---melodic 		 0.5129 , 0.1001
+mood/theme---motivational 		 0.8012 , 0.1663
+mood/theme---movie 		 0.6174 , 0.0534
+mood/theme---nature 		 0.6640 , 0.0279
+mood/theme---party 		 0.7382 , 0.0627
+mood/theme---positive 		 0.7163 , 0.0367
+mood/theme---powerful 		 0.6541 , 0.0202
+mood/theme---relaxing 		 0.7052 , 0.1439
+mood/theme---retro 		 0.6075 , 0.0144
+mood/theme---romantic 		 0.6450 , 0.0577
+mood/theme---sad 		 0.6542 , 0.0618
+mood/theme---sexy 		 0.7384 , 0.0245
+mood/theme---slow 		 0.6055 , 0.0188
+mood/theme---soft 		 0.6188 , 0.0472
+mood/theme---soundscape 		 0.6968 , 0.0220
+mood/theme---space 		 0.6959 , 0.0532
+mood/theme---sport 		 0.8602 , 0.0844
+mood/theme---summer 		 0.8078 , 0.1072
+mood/theme---trailer 		 0.9046 , 0.1992
+mood/theme---travel 		 0.4945 , 0.0136
+mood/theme---upbeat 		 0.5865 , 0.0409
+mood/theme---uplifting 		 0.6560 , 0.0639
+best model: 0.669636
+[2021-11-04 05:06:10] Train finished. Elapsed: 5:17:36.641328
+(download_muinf_py38) baseline(master*)$

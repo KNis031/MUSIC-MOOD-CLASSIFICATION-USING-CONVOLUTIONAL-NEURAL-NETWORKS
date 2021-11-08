@@ -1,0 +1,71 @@
+[2021-10-27 10:03:05] Iter [10/133] test loss: 0.1060 Elapsed: 0:00:24.078050
+[2021-10-27 10:03:28] Iter [20/133] test loss: 0.1324 Elapsed: 0:00:47.041187
+[2021-10-27 10:03:51] Iter [30/133] test loss: 0.1270 Elapsed: 0:01:10.377449
+[2021-10-27 10:04:15] Iter [40/133] test loss: 0.1551 Elapsed: 0:01:34.493280
+[2021-10-27 10:04:38] Iter [50/133] test loss: 0.1283 Elapsed: 0:01:57.332931
+[2021-10-27 10:05:01] Iter [60/133] test loss: 0.1521 Elapsed: 0:02:20.767510
+[2021-10-27 10:05:25] Iter [70/133] test loss: 0.1268 Elapsed: 0:02:44.393847
+[2021-10-27 10:05:45] Iter [80/133] test loss: 0.1360 Elapsed: 0:03:04.548963
+[2021-10-27 10:06:10] Iter [90/133] test loss: 0.1267 Elapsed: 0:03:29.280322
+[2021-10-27 10:06:31] Iter [100/133] test loss: 0.1298 Elapsed: 0:03:50.511991
+[2021-10-27 10:06:53] Iter [110/133] test loss: 0.1443 Elapsed: 0:04:12.352140
+[2021-10-27 10:07:16] Iter [120/133] test loss: 0.1444 Elapsed: 0:04:35.385815
+[2021-10-27 10:07:38] Iter [130/133] test loss: 0.1450 Elapsed: 0:04:57.734256
+roc_auc: 0.6096
+pr_auc: 0.0515
+mood/theme---action 		 0.5672 , 0.0209
+mood/theme---adventure 		 0.5527 , 0.0294
+mood/theme---advertising 		 0.5751 , 0.0516
+mood/theme---background 		 0.5644 , 0.0203
+mood/theme---ballad 		 0.6302 , 0.0264
+mood/theme---calm 		 0.6599 , 0.0345
+mood/theme---children 		 0.6483 , 0.0641
+mood/theme---christmas 		 0.6145 , 0.0565
+mood/theme---commercial 		 0.5215 , 0.0386
+mood/theme---cool 		 0.6282 , 0.0239
+mood/theme---corporate 		 0.6466 , 0.0844
+mood/theme---dark 		 0.4932 , 0.0807
+mood/theme---deep 		 0.7537 , 0.0787
+mood/theme---documentary 		 0.6046 , 0.0486
+mood/theme---drama 		 0.5727 , 0.0232
+mood/theme---dramatic 		 0.5766 , 0.0266
+mood/theme---dream 		 0.5337 , 0.0618
+mood/theme---emotional 		 0.6135 , 0.1415
+mood/theme---energetic 		 0.7251 , 0.1386
+mood/theme---epic 		 0.7781 , 0.1583
+mood/theme---fast 		 0.4317 , 0.0199
+mood/theme---film 		 0.7199 , 0.2430
+mood/theme---fun 		 0.7145 , 0.0380
+mood/theme---funny 		 0.5864 , 0.0379
+mood/theme---game 		 0.6008 , 0.0209
+mood/theme---groovy 		 0.5429 , 0.0108
+mood/theme---happy 		 0.6640 , 0.1411
+mood/theme---heavy 		 0.5855 , 0.0068
+mood/theme---holiday 		 0.5142 , 0.0114
+mood/theme---hopeful 		 0.6202 , 0.0204
+mood/theme---inspiring 		 0.5445 , 0.0579
+mood/theme---love 		 0.5435 , 0.0576
+mood/theme---meditative 		 0.7519 , 0.1140
+mood/theme---melancholic 		 0.6226 , 0.0388
+mood/theme---melodic 		 0.5319 , 0.0684
+mood/theme---motivational 		 0.5876 , 0.0742
+mood/theme---movie 		 0.4998 , 0.0222
+mood/theme---nature 		 0.7498 , 0.0359
+mood/theme---party 		 0.5184 , 0.0153
+mood/theme---positive 		 0.6526 , 0.0434
+mood/theme---powerful 		 0.5466 , 0.0227
+mood/theme---relaxing 		 0.6572 , 0.1074
+mood/theme---retro 		 0.5391 , 0.0137
+mood/theme---romantic 		 0.5610 , 0.0406
+mood/theme---sad 		 0.6683 , 0.0908
+mood/theme---sexy 		 0.6510 , 0.0193
+mood/theme---slow 		 0.6733 , 0.0335
+mood/theme---soft 		 0.6615 , 0.0477
+mood/theme---soundscape 		 0.6091 , 0.0104
+mood/theme---space 		 0.4627 , 0.0143
+mood/theme---sport 		 0.7016 , 0.0305
+mood/theme---summer 		 0.7200 , 0.0667
+mood/theme---trailer 		 0.7378 , 0.0304
+mood/theme---travel 		 0.5654 , 0.0098
+mood/theme---upbeat 		 0.6103 , 0.0309
+mood/theme---uplifting 		 0.5321 , 0.0309

@@ -1,0 +1,73 @@
+Namespace(audio_path='/Users/karlsimu/Desktop/SCHOOL/MUSICINFORMATICS/PROJECTMUINF/data/', batch_size=32, mode='TEST', model_save_path='./models', split=0, subset='moodtheme')
+[2021-10-23 11:05:06] Iter [10/133] test loss: 0.1104 Elapsed: 0:00:16.025996
+[2021-10-23 11:05:23] Iter [20/133] test loss: 0.1515 Elapsed: 0:00:32.677805
+[2021-10-23 11:05:40] Iter [30/133] test loss: 0.1664 Elapsed: 0:00:49.665507
+[2021-10-23 11:05:57] Iter [40/133] test loss: 0.1403 Elapsed: 0:01:06.959493
+[2021-10-23 11:06:14] Iter [50/133] test loss: 0.1412 Elapsed: 0:01:23.998162
+[2021-10-23 11:06:31] Iter [60/133] test loss: 0.1318 Elapsed: 0:01:41.341465
+[2021-10-23 11:06:48] Iter [70/133] test loss: 0.1124 Elapsed: 0:01:57.660760
+[2021-10-23 11:07:04] Iter [80/133] test loss: 0.1274 Elapsed: 0:02:14.119267
+[2021-10-23 11:07:21] Iter [90/133] test loss: 0.0968 Elapsed: 0:02:30.646676
+[2021-10-23 11:07:38] Iter [100/133] test loss: 0.1231 Elapsed: 0:02:47.638230
+[2021-10-23 11:07:54] Iter [110/133] test loss: 0.1386 Elapsed: 0:03:04.402086
+[2021-10-23 11:08:11] Iter [120/133] test loss: 0.1039 Elapsed: 0:03:21.464438
+[2021-10-23 11:08:29] Iter [130/133] test loss: 0.1154 Elapsed: 0:03:38.596047
+roc_auc: 0.6833
+pr_auc: 0.0825
+mood/theme---action 		 0.6591 , 0.0235
+mood/theme---adventure 		 0.5992 , 0.0412
+mood/theme---advertising 		 0.7438 , 0.2266
+mood/theme---background 		 0.5815 , 0.0191
+mood/theme---ballad 		 0.6193 , 0.0304
+mood/theme---calm 		 0.6472 , 0.0383
+mood/theme---children 		 0.7253 , 0.1062
+mood/theme---christmas 		 0.6748 , 0.0746
+mood/theme---commercial 		 0.6793 , 0.0668
+mood/theme---cool 		 0.5571 , 0.0187
+mood/theme---corporate 		 0.7822 , 0.2019
+mood/theme---dark 		 0.6775 , 0.1506
+mood/theme---deep 		 0.9181 , 0.4093
+mood/theme---documentary 		 0.5125 , 0.0385
+mood/theme---drama 		 0.5753 , 0.0244
+mood/theme---dramatic 		 0.6051 , 0.0310
+mood/theme---dream 		 0.5583 , 0.0703
+mood/theme---emotional 		 0.6119 , 0.1306
+mood/theme---energetic 		 0.7229 , 0.1274
+mood/theme---epic 		 0.8070 , 0.2322
+mood/theme---fast 		 0.7269 , 0.0144
+mood/theme---film 		 0.6904 , 0.2285
+mood/theme---fun 		 0.7968 , 0.0545
+mood/theme---funny 		 0.6248 , 0.0429
+mood/theme---game 		 0.6609 , 0.0380
+mood/theme---groovy 		 0.7308 , 0.0279
+mood/theme---happy 		 0.7150 , 0.2277
+mood/theme---heavy 		 0.8596 , 0.0807
+mood/theme---holiday 		 0.5600 , 0.0116
+mood/theme---hopeful 		 0.5977 , 0.0257
+mood/theme---inspiring 		 0.6075 , 0.0701
+mood/theme---love 		 0.6843 , 0.1170
+mood/theme---meditative 		 0.7610 , 0.1151
+mood/theme---melancholic 		 0.6401 , 0.0383
+mood/theme---melodic 		 0.5765 , 0.0733
+mood/theme---motivational 		 0.7680 , 0.1527
+mood/theme---movie 		 0.4801 , 0.0210
+mood/theme---nature 		 0.5636 , 0.0198
+mood/theme---party 		 0.7805 , 0.0359
+mood/theme---positive 		 0.7568 , 0.0870
+mood/theme---powerful 		 0.7425 , 0.0548
+mood/theme---relaxing 		 0.6951 , 0.1249
+mood/theme---retro 		 0.7649 , 0.0208
+mood/theme---romantic 		 0.5889 , 0.0448
+mood/theme---sad 		 0.6762 , 0.0974
+mood/theme---sexy 		 0.5520 , 0.0073
+mood/theme---slow 		 0.6722 , 0.0340
+mood/theme---soft 		 0.7003 , 0.0604
+mood/theme---soundscape 		 0.7727 , 0.0201
+mood/theme---space 		 0.7298 , 0.0248
+mood/theme---sport 		 0.8700 , 0.0751
+mood/theme---summer 		 0.8925 , 0.3033
+mood/theme---trailer 		 0.8236 , 0.1071
+mood/theme---travel 		 0.6206 , 0.0163
+mood/theme---upbeat 		 0.6798 , 0.0366
+mood/theme---uplifting 		 0.6432 , 0.0471
+(download_muinf_py38) baseline(master*)$

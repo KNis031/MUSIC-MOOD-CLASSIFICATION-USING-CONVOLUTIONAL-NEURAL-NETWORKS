@@ -1,0 +1,24 @@
+FCN5
+roc_auc: 0.6246,pr_auc: 0.0563
+roc_auc: 0.6274,pr_auc: 0.0583
+roc_auc: 0.6334,pr_auc: 0.0610
+roc_auc: 0.6311,pr_auc: 0.0600
+roc_auc: 0.6497,pr_auc: 0.0632
+roc_auc: 0.6583,pr_auc: 0.0659
+roc_auc: 0.6616,pr_auc: 0.0701
+FCN6
+roc_auc: 0.5453,pr_auc: 0.0394
+roc_auc: 0.5566,pr_auc: 0.0413
+roc_auc: 0.5645,pr_auc: 0.0412
+roc_auc: 0.5744,pr_auc: 0.0423
+roc_auc: 0.5737,pr_auc: 0.0421
+roc_auc: 0.5870,pr_auc: 0.0431
+roc_auc: 0.5924,pr_auc: 0.0436
+FCN7
+roc_auc: 0.5601,pr_auc: 0.0406
+roc_auc: 0.5706,pr_auc: 0.0433
+roc_auc: 0.5857,pr_auc: 0.0425
+roc_auc: 0.5915,pr_auc: 0.0462
+roc_auc: 0.5928,pr_auc: 0.0440
+roc_auc: 0.5976,pr_auc: 0.0479
+roc_auc: 0.6058,pr_auc: 0.0481
