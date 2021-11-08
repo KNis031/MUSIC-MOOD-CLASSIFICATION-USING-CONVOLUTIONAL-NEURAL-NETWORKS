@@ -11,7 +11,8 @@ import csv
 import torch
 import torch.nn as nn
 
-from model import CNN
+#from model import CNN
+from our_model import CNN
 
 
 class Solver(object):
@@ -21,7 +22,7 @@ class Solver(object):
         self.valid_loader = valid_loader
 
         # Training settings
-        self.n_epochs = 500
+        self.n_epochs = 10
         self.lr = 1e-4
         self.log_step = 10
         self.is_cuda = torch.cuda.is_available()
@@ -51,10 +52,13 @@ class Solver(object):
     def build_model(self):
         # model and optimizer
         model = CNN(num_class=self.num_class)
-
+        """
         if self.is_cuda:
             self.model = model
             self.model.cuda()
+        """
+        print(model)
+        self.model = model #Detta har vi lagt till
         self.optimizer = torch.optim.Adam(self.model.parameters(), self.lr)
 
     def load(self, filename):
@@ -82,6 +86,7 @@ class Solver(object):
             # train
             self.model.train()
             ctr = 0
+            #print("data loader:", self.data_loader.dataset.__getitem__(0)[0].shape)
             for x, y, _ in self.data_loader:
                 ctr += 1
 
@@ -104,6 +109,23 @@ class Solver(object):
                             (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                             epoch+1, self.n_epochs, ctr, len(self.data_loader), loss.item(),
                             datetime.timedelta(seconds=time.time()-start_t)))
+                    ### (Vi har lagt till) Write loss ###
+                    msg = (repr(self.model))
+                    num_layers = str(msg.count('Conv2d'))
+                    train_val_ind = int(True)
+                    loss_file_n = 'loss_log_FCN' + num_layers + '.txt'
+                    if os.path.isfile(loss_file_n) is False:
+                        f = open(loss_file_n, 'w')
+                        f.write("Epoch, Tot Epochs, Iter, Tot Iters, loss, Elapsed time, training=1/validation=0")
+                        f.write("\n")
+                        f.close()
+                    f=open(loss_file_n,'a')
+                    f.write("%d, %d, %d, %d, %.4f, %s, %d" %
+                            (epoch+1, self.n_epochs, ctr, len(self.data_loader), loss.item(),
+                            datetime.timedelta(seconds=time.time()-start_t), train_val_ind))
+                    f.write("\n")
+                    f.close()
+                    ### (Vi har lagt till) END ###
 
             # validation
             roc_auc, _ = self._validation(start_t, epoch)
@@ -127,7 +149,12 @@ class Solver(object):
         ctr = 0
         self.model.eval()
         reconst_loss = nn.BCELoss()
-        for x, y in self.valid_loader:
+        ### (Vi har lagt till) Write loss ###
+        str_ex = ""
+        ### (Vi har lagt till) END ###
+
+        #for x, y in self.valid_loader:
+        for x, y, _ in self.valid_loader: #third parameter _ (dictionary) missing in original code
             ctr += 1
 
             # variables to cuda
@@ -144,6 +171,22 @@ class Solver(object):
                         (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                         epoch+1, self.n_epochs, ctr, len(self.valid_loader), loss.item(),
                         datetime.timedelta(seconds=time.time()-start_t)))
+                ### (Vi har lagt till) Write loss ###
+                # msg = (repr(self.model))
+                # num_layers = str(msg.count('Conv2d'))
+                train_val_ind = int(False)
+                # loss_file_n = 'loss_log_FCN' + num_layers + '.txt'
+                # f=open(loss_file_n,'a')
+                # f.write("%d, %d, %d, %d, %.4f, %s, %d" %
+                #         (epoch+1, self.n_epochs, ctr, len(self.data_loader), loss.item(),
+                #         datetime.timedelta(seconds=time.time()-start_t), train_val_ind))
+                # f.write("\n")
+                # f.close()
+                str_ex += ("%d, %d, %d, %d, %.4f, %s, %d" %
+                        (epoch+1, self.n_epochs, ctr, len(self.data_loader), loss.item(),
+                        datetime.timedelta(seconds=time.time()-start_t), train_val_ind))
+                str_ex += "\n"
+                ### (Vi har lagt till) END ###
 
             # append prediction
             out = out.detach().cpu()
@@ -152,6 +195,15 @@ class Solver(object):
                 prd_array.append(list(np.array(prd)))
             for gt in y:
                 gt_array.append(list(np.array(gt)))
+
+        ### (Vi har lagt till) Write loss ### 
+        msg = (repr(self.model))
+        num_layers = str(msg.count('Conv2d'))
+        loss_file_n = 'loss_log_FCN' + num_layers + '.txt'
+        f=open(loss_file_n,'a')
+        f.write(str_ex)
+        f.close()
+        ### (Vi har lagt till) END ###
 
         # get auc
         roc_auc, pr_auc, _, _ = self.get_auc(prd_array, gt_array)

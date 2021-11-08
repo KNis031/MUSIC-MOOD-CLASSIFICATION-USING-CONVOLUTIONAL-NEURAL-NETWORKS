@@ -190,21 +190,26 @@ python scripts/split_filter_subset.py data/splits autotagging autotagging_top50t
 * Create subset with only mood/theme tags (or other category: genre, instrument)
 ```bash
 python scripts/filter_category.py data/autotagging.tsv mood/theme data/autotagging_moodtheme.tsv --tag-list data/tags/moodtheme.txt
+python3 scripts/filter_category.py data/autotagging.tsv mood/theme data/autotagging_moodtheme.tsv --tag-list data/tags/moodtheme.txt
 python scripts/split_filter_subset.py data/splits autotagging autotagging_moodtheme --category mood/theme 
+python3 scripts/split_filter_subset.py data/splits autotagging autotagging_moodtheme --category mood/theme 
 ```
 ### Reproduce experiments
 * Preprocessing
 ```bash
 python scripts/baseline/get_npy.py run 'your_path_to_spectrogram_npy'
+python3 get_npy.py run '../../../data'
 ```
 
 * Train
 ```bash
 python scripts/baseline/main.py --mode 'TRAIN' 
+python3 main.py --mode 'TRAIN' --audio_path '/Users/karlsimu/Desktop/SCHOOL/MUSICINFORMATICS/PROJECTMUINF/data/' --subset 'moodtheme'
 ```
 * Test
 ```bash
 python scripts/baseline/main.py --mode 'TEST' 
+python3 main.py --mode 'TEST' --audio_path '/Users/karlsimu/Desktop/SCHOOL/MUSICINFORMATICS/PROJECTMUINF/data/' --subset 'moodtheme'
 ```
 ```
 optional arguments:

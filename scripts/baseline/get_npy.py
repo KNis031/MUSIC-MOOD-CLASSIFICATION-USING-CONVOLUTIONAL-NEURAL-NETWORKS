@@ -19,6 +19,7 @@ class Split:
             tag_list = np.load('tag_list_50.npy')
         else:
             tag_list = np.load('tag_list.npy')
+            #tag_list = np.load('scripts/baseline/tag_list.npy')
             if option == 'genre':
                 tag_list = tag_list[:87]
             elif option == 'instrument':
