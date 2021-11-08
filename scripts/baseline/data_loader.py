@@ -15,11 +15,11 @@ class AudioFolder(data.Dataset):
         fn = os.path.join(self.root, 'npy', self.dictionary[index]['path'][:-3]+'npy')
         audio = np.array(np.load(fn))
 
-        ### Adding code here to slice the mel spectrograms into 29.1 second segments which corresponds to 1366 windows ###
+        ### (Added by us) Adding code here to slice the mel spectrograms into 29.1 second segments which corresponds to 1366 windows ###
         slice_len=1366
         middle_window = int(audio.shape[1]/2)
         audio = audio[:,middle_window-(int(slice_len/2)):middle_window+(int(slice_len/2))]
-        ### -------- ### 
+        ### (Added by us) END ### 
 
         tags = self.dictionary[index]['tags']
         return audio.astype('float32'), tags.astype('float32'), self.dictionary[index]['path']
