@@ -4,7 +4,7 @@ By Eliott Remmer & Karl Simu
 
 ## Introduction
 
-TBA
+Mood recognition of a piece of music is a common topicof research within Music Informatics Retrival (MIR). Research has also been pushed by the advancement of music streaming services and the related field of Music Recommendation Systems. In automatic tagging one aims to predict the music tags, i.e.  the high-level information of a music clip. Mood classification then, is a multi-label classification problem where a given track, one or more fixed mood tags is assigned.  In this project, we have used CNN model architectures presented in a paper by Choi et.al. to try to improve baseline results using the MTG-Jamendo dataset for mood/theme classification to music.
 
 ## Structure
 
