@@ -1,6 +1,6 @@
 # MUSIC MOOD CLASSIFICATION USING CONVOLUTIONAL NEURAL NETWORKS
 
-By Elliot Remmer & Karl Simu
+By Eliott Remmer & Karl Simu
 
 ## Introduction
 
