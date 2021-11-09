@@ -4,7 +4,7 @@ By Eliott Remmer & Karl Simu
 
 ## Introduction
 
-Mood recognition of a piece of music is a common topicof research within Music Informatics Retrival (MIR). Research has also been pushed by the advancement of music streaming services and the related field of Music Recommendation Systems. In automatic tagging one aims to predict the music tags, i.e.  the high-level information of a music clip. Mood classification then, is a multi-label classification problem where a given track, one or more fixed mood tags is assigned.  In this project, we have used CNN model architectures presented in a paper by Choi et.al. to try to improve baseline results using the MTG-Jamendo dataset for mood/theme classification to music.
+Mood recognition of a piece of music is a common topic of research within Music Informatics Retrival (MIR). There has been much interest in the field in recent years by the advance of music streaming services as well as the rise of related fields such as Music Recommendation Systems . One of the prominent approaches to mood recognition of music have been automatic tagging. In this task, one aims to predict the music tags, i.e. the high-level mood information of a music clip. The problem is further formalized as a multi-label classification problem where a track is assigned one or more fixed mood tags. In this project, we have used CNN model architectures presented in a paper by Choi et. al. [1] to try to improve baseline results using the MTG-Jamendo dataset [2] for mood/theme classification to music. The code of this project mainly works within a script framework already presented with the MTG-Jamendo dataset.
 
 ## Structure
 
@@ -27,9 +27,11 @@ All scripts written or modified by us:
 * AUC-Loss-plots/plot.py
 
 
-## Dataset
+## Refrences
 
-> Bogdanov, D., Won M., Tovstogan P., Porter A., & Serra X. (2019).  [The MTG-Jamendo Dataset for Automatic Music Tagging](https://hdl.handle.net/10230/42015). Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML 2019).
+[1] Keunwoo  Choi,  Gy ̈orgy  Fazekas,  and  Mark  B.  San-dler. Automatic tagging using deep convolutional neu-ral networks.CoRR, abs/1606.00298, 2016.
+
+[2] Bogdanov, D., Won M., Tovstogan P., Porter A., & Serra X. (2019).  [The MTG-Jamendo Dataset for Automatic Music Tagging](https://hdl.handle.net/10230/42015). Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML 2019).
 
 
 ## License
