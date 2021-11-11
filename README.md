@@ -27,7 +27,7 @@ All scripts written or modified by us:
 * AUC-Loss-plots/plot.py
 
 
-## Refrences
+## References
 
 [1] Keunwoo  Choi,  Gy ̈orgy  Fazekas,  and  Mark  B.  San-dler. Automatic tagging using deep convolutional neu-ral networks.CoRR, abs/1606.00298, 2016.
 
